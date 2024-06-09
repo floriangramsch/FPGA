@@ -1,0 +1,4 @@
+Abgabe von Florian Gramsch und Adrian Schmitt
+Wir mussten ein paar Änderungen an den .top Dateien machen, da es sonst nicht funktionieren wollte.
+
+Frage für die nächste Übung: Wie fügt man nochmal Signals der Simulation hinzu?
