@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "alu",
+            "type": "shell",
+            "command": "vsimk sim_alu/alu.mpf",
+            "problemMatcher": []
+        },
+        {
+            "label": "register_file",
+            "type": "shell",
+            "command": "vsimk sim_register_file/register_file.mpf",
+            "problemMatcher": []
+        }
+    ]
+}

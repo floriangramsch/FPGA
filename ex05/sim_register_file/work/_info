@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2023.3 2023.07, Jul 18 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/sim_alu
+Eriscv_register_file
+Z0 w1717958305
+Z1 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+Z4 dC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/sim_register_file
+Z5 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file.vhd
+Z6 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file.vhd
+l0
+L7 1
+V5Vgdlkh>W=in@2G:4^WEg0
+!s100 OWTIg<9>e85NhCa1GH`O[3
+Z7 OT;C;2023.3;77
+32
+Z8 !s110 1717958421
+!i10b 1
+Z9 !s108 1717958421.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file.vhd|
+Z11 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 19 riscv_register_file 0 22 5Vgdlkh>W=in@2G:4^WEg0
+!i122 0
+l26
+L24 7
+V8Fn_iZ6RNQ2o;adSS57CE0
+!s100 ]_F6<K>mi:MjEz@PmRdj73
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eriscv_register_file_tb
+Z15 w1717956443
+R1
+R2
+R3
+!i122 1
+R4
+Z16 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file_tb.vhd
+Z17 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file_tb.vhd
+l0
+L7 1
+VELlbSFR<5LIdHb8Sik0W73
+!s100 djCZ]J3>iCg2AKWN@YUcf2
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file_tb.vhd|
+!s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file_tb.vhd|
+!i113 1
+R12
+R13
+Aarch
+R14
+R1
+R2
+R3
+DEx4 work 22 riscv_register_file_tb 0 22 ELlbSFR<5LIdHb8Sik0W73
+!i122 1
+l23
+L13 56
+Va^E?E>4JEZYAX3UIRjbT20
+!s100 ZWbbd?lQUknTXo??2B4=>0
+R7
+32
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_register_file_tb.vhd|
+!i113 1
+R12
+R13
