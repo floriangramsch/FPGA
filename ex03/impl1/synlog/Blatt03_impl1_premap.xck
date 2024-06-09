@@ -1,0 +1,3 @@
+ckid0_0:@|S:e_clkdiv_sel.clk.Q[0]@|E:e_lfsr8.lfsr[7:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:e_clkdiv.clk.Q[0]@|E:e_clkdiv_sel.clk@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_4:@|S:i_clk@|E:e_clkdiv.clk@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4

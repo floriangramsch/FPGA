@@ -1,0 +1,1 @@
+project -fileorder "E:/Programs/Iscc/diamond/3.13/cae_library/synthesis/vhdl/machxo3l.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/edge_detector.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/ex02_debouncer.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/ex02_top.vhd" 

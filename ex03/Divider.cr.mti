@@ -1,0 +1,49 @@
+C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_clkdiv_sel_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_clkdiv_sel_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex03_clkdiv_sel_tb
+-- Compiling architecture arc of ex03_clkdiv_sel_tb
+-- Loading entity ex03_clkdiv_sel
+
+} {} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_clkdiv_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_clkdiv_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex03_clkdiv_tb
+-- Compiling architecture arch of ex03_clkdiv_tb
+-- Loading entity ex03_clkdiv
+
+} {} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_clkdiv.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_clkdiv.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex03_top_clkdiv
+-- Compiling architecture arch of ex03_top_clkdiv
+-- Loading entity ex03_clkdiv
+-- Loading entity ex03_clkdiv_sel
+
+} {} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex03_clkdiv_sel
+-- Compiling architecture arch of ex03_clkdiv_sel
+
+} {} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ex03_clkdiv
+-- Compiling architecture arch of ex03_clkdiv
+
+} {} {}}

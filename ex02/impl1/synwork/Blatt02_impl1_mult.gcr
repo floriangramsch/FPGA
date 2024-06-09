@@ -1,0 +1,8 @@
+i i_clk
+m 0 0
+u 5 28
+p {p:i_clk}{t:e_debouncer.i_clk}{p:e_debouncer.i_clk}{t:e_debouncer.last_d.C}
+e ckid0_0 {t:e_debouncer.last_d.C} dffre
+c ckid0_0 {p:i_clk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

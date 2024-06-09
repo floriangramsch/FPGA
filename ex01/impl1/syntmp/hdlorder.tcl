@@ -1,0 +1,1 @@
+project -fileorder "E:/Programs/Iscc/diamond/3.13/cae_library/synthesis/vhdl/machxo3l.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_halfAdder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_adder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_top_adder.vhd" 

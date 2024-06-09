@@ -1,0 +1,26 @@
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":7:7:7:20|Synthesizing work.ex01_top_adder.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_adder.vhd":5:7:5:16|Synthesizing work.ex01_adder.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_halfAdder.vhd":6:7:6:20|Synthesizing work.ex01_halfadder.arch1.
+Post processing for work.ex01_halfadder.arch1
+Running optimization stage 1 on ex01_halfAdder .......
+Finished optimization stage 1 on ex01_halfAdder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Post processing for work.ex01_adder.arch
+Running optimization stage 1 on ex01_adder .......
+Finished optimization stage 1 on ex01_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Post processing for work.ex01_top_adder.arch
+Running optimization stage 1 on ex01_top_adder .......
+Finished optimization stage 1 on ex01_top_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on ex01_halfAdder .......
+Finished optimization stage 2 on ex01_halfAdder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on ex01_adder .......
+Finished optimization stage 2 on ex01_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on ex01_top_adder .......
+@N: CL159 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":15:8:15:12|Input i_clk is unused.
+@N: CL159 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":17:8:17:16|Input i_reset_n is unused.
+Finished optimization stage 2 on ex01_top_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\layer0.duruntime
+
+

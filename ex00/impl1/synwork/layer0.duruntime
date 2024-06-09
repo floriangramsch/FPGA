@@ -1,0 +1,9 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: ex00_xor, Architecture: arch2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ex00_top, Architecture: arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

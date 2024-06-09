@@ -1,0 +1,11 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="lsfr" simType="ModelSim">
+    <Source worklib="work" path="ex03/ex03_lfsr8.vhd" type="VHDL" langstandard="" include="none"/>
+    <Source worklib="work" path="ex03/ex03_clkdiv_sel.vhd" type="VHDL" langstandard="" include="none"/>
+    <Source worklib="work" path="ex03/ex03_clkdiv.vhd" type="VHDL" langstandard="" include="none"/>
+    <Source worklib="work" path="ex03/ex03_top_lfsr.vhd" type="VHDL" langstandard="" include="none"/>
+    <Source worklib="" path="ex03/tb/ex03_lfsr8_tb.vhd" type="VHDL" langstandard="" include="none"/>
+    <SimLib value="pmi_work ovi_machxo3l"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="ex03_lfsr8_tb"/>
+</BaliSimProject>

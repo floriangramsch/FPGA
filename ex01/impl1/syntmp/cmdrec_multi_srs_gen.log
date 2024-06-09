@@ -1,0 +1,7 @@
+E:\Programs\Iscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe  -link  -top  ex01_top_adder  -multisrs  C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\blatt01_impl1_comp.srs  -osyn  C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\blatt01_impl1_mult.srs  -log  C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synlog\blatt01_impl1_multi_srs_gen.srr 
+relcom:E:\Programs\Iscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe -link -top ex01_top_adder -multisrs ..\synwork\blatt01_impl1_comp.srs -osyn ..\synwork\blatt01_impl1_mult.srs -log ..\synlog\blatt01_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\blatt01_impl1_comp.srs|io:i|time:1716229675|size:4105|exec:0|csum:76009868EE5C3313B9DAA750264A5AB1
+file:..\synwork\blatt01_impl1_mult.srs|io:o|time:1716229677|size:2307|exec:0|csum:
+file:..\synlog\blatt01_impl1_multi_srs_gen.srr|io:o|time:1716229677|size:1176|exec:0|csum:
+file:e:\programs\iscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe|io:i|time:1691654056|size:10600960|exec:1|csum:6BAEBE966B12EE4A1CCC452B6603E0B1

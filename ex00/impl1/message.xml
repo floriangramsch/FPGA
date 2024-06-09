@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo3c00f.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_reset_n_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd&quot;:52:8:52:9|Pruning unused bits 31 to 24 of cnt_3(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 31 to 24 of cnt_3(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd&quot;:52:8:52:9|Found inferred clock ex00_top|i_clk which controls 24 sequential elements including cnt[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Found inferred clock ex00_top|i_clk which controls 24 sequential elements including cnt[23:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock ex00_top|i_clk with period 10.00ns. Please declare a user-defined clock on port i_clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock ex00_top|i_clk with period 10.00ns. Please declare a user-defined clock on port i_clk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

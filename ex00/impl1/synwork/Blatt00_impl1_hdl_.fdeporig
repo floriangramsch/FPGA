@@ -1,0 +1,44 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|ex00_top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt00\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\bin64\\c_vhdl.exe":1693474890
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\location.map":1693403986
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\std.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\std1164.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\numeric.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\umr_capim.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\arith.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\unsigned.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\hyperents.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\cae_library\\synthesis\\vhdl\\machxo3l.vhd":1614206296
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt00\\impl1\\source\\ex00_and.vhd":1716117534
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt00\\impl1\\source\\ex00_top.vhd":1716117545
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt00\\impl1\\source\\ex00_xor.vhd":1716117518
+0 "E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd" vhdl
+1 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_and.vhd" vhdl
+2 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd" vhdl
+3 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_xor.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 3 
+3 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+2 -1
+3 2 
+
+# Design Unit to File Association
+arch work ex00_and arch2 1
+arch work ex00_and arch1 1
+arch work ex00_and arch0 1
+module work ex00_and 1
+arch work ex00_top arch 2
+module work ex00_top 2
+arch work ex00_xor arch2 3
+arch work ex00_xor arch1 3
+arch work ex00_xor arch0 3
+module work ex00_xor 3

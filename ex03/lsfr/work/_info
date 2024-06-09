@@ -1,0 +1,228 @@
+m255
+K4
+z2
+!s11e vcom 2023.3 2023.07, Jul 18 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/lsfr
+Eex03_clkdiv
+Z1 w1717245533
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 2
+R0
+Z4 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd
+Z5 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd
+l0
+L6 1
+V>P6dLncFf`CRh2z^J?@hP2
+!s100 Ndj:OX`8Z5aGITAFXVhVN2
+Z6 OT;C;2023.3;77
+32
+Z7 !s110 1717440051
+!i10b 1
+Z8 !s108 1717440050.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd|
+Z10 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd|
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+Z13 DEx4 work 11 ex03_clkdiv 0 22 >P6dLncFf`CRh2z^J?@hP2
+!i122 2
+l22
+L17 27
+VEM=;:bjnb2TcPI4R:n[6l0
+!s100 WWPhbEkB5G0Zk2d5YGWFm2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eex03_clkdiv_sel
+Z14 w1717245799
+Z15 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R2
+R3
+!i122 1
+R0
+Z16 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd
+Z17 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd
+l0
+L7 1
+VmV6`4Bf^9Cj:@^FFg9@Bn3
+!s100 fhhj>7V97^9l87b;EEWZM2
+R6
+32
+Z18 !s110 1717440050
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd|
+Z20 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd|
+!i113 1
+R11
+R12
+Aarch
+R15
+R2
+R3
+Z21 DEx4 work 15 ex03_clkdiv_sel 0 22 mV6`4Bf^9Cj:@^FFg9@Bn3
+!i122 1
+l40
+L16 45
+VD2L0:6JgLBjB:dDJnh2F83
+!s100 ;a8jD[fYV0f7RBS?GQRaL0
+R6
+32
+R18
+!i10b 1
+R8
+R19
+R20
+!i113 1
+R11
+R12
+Eex03_lfsr8
+Z22 w1717439476
+R15
+R2
+R3
+!i122 0
+R0
+Z23 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_lfsr8.vhd
+Z24 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_lfsr8.vhd
+l0
+L7 1
+VKzEPWobCY_3fjJLh6C=BM0
+!s100 :f`Y7BjmKS<kDf:7<<0]f3
+R6
+32
+R18
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_lfsr8.vhd|
+Z26 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_lfsr8.vhd|
+!i113 1
+R11
+R12
+Aarch
+R15
+R2
+R3
+Z27 DEx4 work 10 ex03_lfsr8 0 22 KzEPWobCY_3fjJLh6C=BM0
+!i122 0
+l29
+L24 35
+Vd5B_:6`?A[RIzk0mZ994b1
+!s100 4jk@QQW@m5Y_d]WMI0OSV0
+R6
+32
+R18
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Eex03_lfsr8_tb
+Z28 w1686730549
+R15
+R2
+R3
+!i122 4
+R0
+Z29 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd
+Z30 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd
+l0
+L7 1
+VdMkf`_z]H>LB3Ke9YHnQQ2
+!s100 =]2PH4GX]VQ;n^ld;B=ja0
+R6
+32
+R7
+!i10b 1
+Z31 !s108 1717440051.000000
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd|
+!s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd|
+!i113 1
+R11
+R12
+Aarch
+R27
+R15
+R2
+R3
+DEx4 work 13 ex03_lfsr8_tb 0 22 dMkf`_z]H>LB3Ke9YHnQQ2
+!i122 4
+l67
+L13 91
+VH81F=KS^D`DSNVaOzbA^O3
+!s100 8T15ALBcRAji`8gKjD5583
+R6
+32
+R7
+!i10b 1
+R31
+R32
+Z33 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd|
+!i113 1
+R11
+R12
+Eex03_top_lfsr
+Z34 w1717335504
+R15
+R2
+R3
+!i122 3
+R0
+Z35 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_lfsr.vhd
+Z36 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_lfsr.vhd
+l0
+L7 1
+VY2Hd2LYW:X>fg4BN@5R`S1
+!s100 nDHG123gL^VeaFEFhAiMS2
+R6
+32
+R7
+!i10b 1
+R31
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_lfsr.vhd|
+Z38 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_lfsr.vhd|
+!i113 1
+R11
+R12
+Aarch
+R27
+R21
+R13
+R15
+R2
+R3
+DEx4 work 13 ex03_top_lfsr 0 22 Y2Hd2LYW:X>fg4BN@5R`S1
+!i122 3
+l28
+L21 42
+V[=?h]VbC9D_]Ca:2E2D7;1
+!s100 me6ARj<zPEYFclhg<:Ymc3
+R6
+32
+R7
+!i10b 1
+R31
+R37
+R38
+!i113 1
+R11
+R12

@@ -1,0 +1,11 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: ex01_halfAdder, Architecture: arch1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ex01_adder, Architecture: arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ex01_top_adder, Architecture: arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

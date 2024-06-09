@@ -1,0 +1,52 @@
+#Start recording tcl command: 5/20/2024 12:56:17
+#Project Location: C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01; Project name: blatt01
+prj_project new -name "blatt01" -impl "impl1" -dev LCMXO3LF-6900C-5BG256C -synthesis "synplify"
+file copy -force -- "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/ex01_adder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/ex01_halfAdder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/ex01_top_adder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source"
+prj_src add "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_adder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_halfAdder.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_top_adder.vhd"
+prj_project save
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_src enable "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Bitgen
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_project close
+pgr_project open "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Bitgen
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_project close
+pgr_project open "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+prj_src remove "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_project close
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_src enable "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+pgr_program set -cable 
+prj_run Export -impl impl1 -task Bitgen
+pgr_program run
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Bitgen
+pgr_program run
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+prj_src exclude "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/source/ex01_halfAdder.vhd"
+pgr_project close
+prj_run Export -impl impl1 -task Bitgen
+prj_src remove "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_src enable "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/impl1.xcf"
+prj_project save
+prj_project close
+#Stop recording: 5/20/2024 13:25:52

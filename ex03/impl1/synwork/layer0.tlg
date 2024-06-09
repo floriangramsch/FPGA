@@ -1,0 +1,31 @@
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_top_lfsr.vhd":7:7:7:19|Synthesizing work.ex03_top_lfsr.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd":7:7:7:16|Synthesizing work.ex03_lfsr8.arch.
+Post processing for work.ex03_lfsr8.arch
+Running optimization stage 1 on ex03_lfsr8 .......
+Finished optimization stage 1 on ex03_lfsr8 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd":7:7:7:21|Synthesizing work.ex03_clkdiv_sel.arch.
+@W: CD749 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd":50:21:50:46|Index value of type natural (or large positive integer) could be out of prefix range 0 to 15 
+Post processing for work.ex03_clkdiv_sel.arch
+Running optimization stage 1 on ex03_clkdiv_sel .......
+Finished optimization stage 1 on ex03_clkdiv_sel (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd":6:7:6:17|Synthesizing work.ex03_clkdiv.arch.
+Post processing for work.ex03_clkdiv.arch
+Running optimization stage 1 on ex03_clkdiv .......
+Finished optimization stage 1 on ex03_clkdiv (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Post processing for work.ex03_top_lfsr.arch
+Running optimization stage 1 on ex03_top_lfsr .......
+Finished optimization stage 1 on ex03_top_lfsr (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Running optimization stage 2 on ex03_clkdiv .......
+Finished optimization stage 2 on ex03_clkdiv (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 93MB)
+Running optimization stage 2 on ex03_clkdiv_sel .......
+Finished optimization stage 2 on ex03_clkdiv_sel (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 93MB)
+Running optimization stage 2 on ex03_lfsr8 .......
+Finished optimization stage 2 on ex03_lfsr8 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 93MB)
+Running optimization stage 2 on ex03_top_lfsr .......
+Finished optimization stage 2 on ex03_top_lfsr (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 93MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\impl1\synwork\layer0.duruntime
+
+

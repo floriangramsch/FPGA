@@ -1,0 +1,32 @@
+----------------------------------------------------------------------
+Report for cell ex00_top.arch
+
+Register bits: 24 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       13       100.0
+                            FD1S3DX       24       100.0
+                                GSR        1       100.0
+                                 IB        6       100.0
+                                INV        5       100.0
+                                 OB        8       100.0
+                           ORCALUT4        1       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                           ex00_xor        1       100.0
+                            
+                         TOTAL            64           
+----------------------------------------------------------------------
+Report for cell ex00_xor.netlist
+     Instance path:  e_and
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL             3           

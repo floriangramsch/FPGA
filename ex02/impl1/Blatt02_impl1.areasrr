@@ -1,0 +1,50 @@
+----------------------------------------------------------------------
+Report for cell ex02_top.arch
+
+Register bits: 28 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       13       100.0
+                            FD1P3AX        1       100.0
+                            FD1P3DX       24       100.0
+                            FD1S3AX        1       100.0
+                                GSR        1       100.0
+                                 IB        4       100.0
+                                INV        3       100.0
+                                 OB        8       100.0
+                           OFS1P3BX        1       100.0
+                           OFS1P3JX        1       100.0
+                           ORCALUT4        9       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                      edge_detector        1       100.0
+                     ex02_debouncer        1       100.0
+                            
+                         TOTAL            75           
+----------------------------------------------------------------------
+Report for cell ex02_debouncer.netlist
+     Instance path:  e_debouncer
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       13       100.0
+                            FD1P3AX        1       100.0
+                            FD1P3DX       24       100.0
+                           ORCALUT4        9       100.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            49           
+----------------------------------------------------------------------
+Report for cell edge_detector.netlist
+     Instance path:  e_edge_detector
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        1       100.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL             3           

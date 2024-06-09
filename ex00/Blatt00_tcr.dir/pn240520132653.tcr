@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/20/2024 13:25:52
+#Project Location: C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt00; Project name: Blatt00
+prj_project open "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt00/Blatt00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt00/impl1/impl1.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 5/20/2024 13:26:53

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo3c00f.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1100523</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf(37): Semantic error in &quot;FREQUENCY PORT &quot;i_clk&quot; 12.000000 MHz ;&quot;: </Dynamic>
+            <Dynamic>&quot;i_clk&quot; matches no ports in the design. </Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf(34): Semantic error in &quot;IOBUF PORT &quot;i_reset_n&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_reset_n</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf(38): Semantic error in &quot;IOBUF PORT &quot;i_clk&quot; PULLMODE=NONE IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_clk</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_clk</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_reset_n</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_clk</Dynamic>
+            <Navigation>i_clk</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_reset_n</Dynamic>
+            <Navigation>i_reset_n</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

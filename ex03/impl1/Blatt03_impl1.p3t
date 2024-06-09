@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Blatt03_impl1.log"
+-o "Blatt03_impl1.csv"
+-pr "Blatt03_impl1.prf"

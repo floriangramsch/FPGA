@@ -1,0 +1,22 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun May 19 13:20:59 2024 *
+NOTE DESIGN NAME: ex00_top *
+NOTE DEVICE NAME: LCMXO3LF-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS o_led_n[0] : H11 : out *
+NOTE PINS i_sw_n[0] : N2 : in *
+NOTE PINS i_reset_n : B3 : in *
+NOTE PINS i_clk : C8 : in *
+NOTE PINS i_sw_n[3] : N1 : in *
+NOTE PINS i_sw_n[2] : M3 : in *
+NOTE PINS i_sw_n[1] : P1 : in *
+NOTE PINS o_led_n[7] : P16 : out *
+NOTE PINS o_led_n[6] : N15 : out *
+NOTE PINS o_led_n[5] : L13 : out *
+NOTE PINS o_led_n[4] : K11 : out *
+NOTE PINS o_led_n[3] : L12 : out *
+NOTE PINS o_led_n[2] : J11 : out *
+NOTE PINS o_led_n[1] : J13 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

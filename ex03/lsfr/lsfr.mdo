@@ -1,0 +1,23 @@
+if {![file exists "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/lsfr/lsfr.mpf"]} { 
+	project new "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/lsfr" lsfr
+	project addfile "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_lfsr8.vhd"
+	project addfile "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd"
+	project addfile "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd"
+	project addfile "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_lfsr.vhd"
+	project addfile "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_lfsr8.vhd"
+	vcom -work work "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv_sel.vhd"
+	vcom -work work "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_clkdiv.vhd"
+	vcom -work work "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/ex03_top_lfsr.vhd"
+	vcom -work work "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/ex03/tb/ex03_lfsr8_tb.vhd"
+} else {
+	project open "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/lsfr/lsfr"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo3l  ex03_lfsr8_tb
+view wave
+add wave /*
+run 1000ns

@@ -1,0 +1,5 @@
+@E: CL219 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd":14:8:14:13|Multiple non-tristate drivers for net o_lfsr(0) in ex03_lfsr8
+@E: CL229 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd":14:8:14:13|Unresolved tristate drivers for net o_lfsr(0) in ex03_lfsr8
+@E: Could not find specified top level ex03_top_lfsr (library: work, cell: ex03_top_lfsr)
+@E::Error while linking, aborting.
+

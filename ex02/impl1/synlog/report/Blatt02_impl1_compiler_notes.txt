@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd":7:7:7:14|Top entity is set to ex02_top.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\edge_detector.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd'.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd":7:7:7:14|Synthesizing work.ex02_top.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":5:7:5:20|Synthesizing work.ex02_debouncer.deb.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\edge_detector.vhd":5:7:5:19|Synthesizing work.edge_detector.det.
+@N|Running in 64-bit mode
+

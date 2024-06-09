@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt02\impl1\source\edge_detector.vhd":23:1:23:2|Found inferred clock ex02_top|i_clk which controls 28 sequential elements including e_edge_detector.last_d. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

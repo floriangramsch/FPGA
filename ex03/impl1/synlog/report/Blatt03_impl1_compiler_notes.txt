@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_top_lfsr.vhd":7:7:7:19|Top entity is set to ex03_top_lfsr.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_top_lfsr.vhd'.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_top_lfsr.vhd":7:7:7:19|Synthesizing work.ex03_top_lfsr.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd":7:7:7:16|Synthesizing work.ex03_lfsr8.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd":7:7:7:21|Synthesizing work.ex03_clkdiv_sel.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd":6:7:6:17|Synthesizing work.ex03_clkdiv.arch.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,97 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "20:49:06    03-Jun-2024",
+	"Working Directory" : "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/impl1",
+	"Install" : "E:/Programs/Iscc/diamond/3.13/synpbase"
+},
+"hdl_info_gen" :{
+   "Start Time" : "20:48:12",
+   "Runtime" : "02s",
+   "Executable Run Time" : "02s",
+   "hdl_info_gen" : {
+      "executable" : "bin64/c_vhdl.exe",
+      "Run Directory" : "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/impl1",
+      "Run State" : "Complete",
+      "Return Code" : "0",
+      "Has Errors" : "no",
+      "Run Start Time" : "20:48:12",
+      "Run Time" : "02s",
+      "Exe Run Time" : "02s",
+      "Memory Usage" : "-",
+      "Up-to-date (run skipped)" : "no"
+   }
+},
+"impl1" :{
+   "Start Time" : "20:48:16",
+   "Runtime" : "50s",
+   "Executable Run Time" : "42s",
+   "synthesis" : {
+      "Start Time" : "20:48:16",
+      "Runtime" : "50s",
+      "Executable Run Time" : "42s",
+      "compile" : {
+         "Start Time" : "20:48:16",
+         "Runtime" : "28s",
+         "Executable Run Time" : "24s",
+         "compile_flow" : {
+            "Start Time" : "20:48:16",
+            "Runtime" : "12s",
+            "Executable Run Time" : "11s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "20:48:16",
+               "Run Time" : "10s",
+               "Exe Run Time" : "09s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "20:48:26",
+               "Run Time" : "02s",
+               "Exe Run Time" : "02s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "20:48:28",
+            "Run Time" : "16s",
+            "Exe Run Time" : "13s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Start Time" : "20:48:44",
+         "Runtime" : "22s",
+         "Executable Run Time" : "18s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "20:48:44",
+            "Run Time" : "22s",
+            "Exe Run Time" : "18s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

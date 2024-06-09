@@ -1,0 +1,33 @@
+C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_edge_detector_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_edge_detector_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex02_edge_detector_tb
+-- Compiling architecture arch of ex02_edge_detector_tb
+** Error: (vcom-11) Could not find work.ex02_edge_detector.
+** Error (suppressible): C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_edge_detector_tb.vhd(27): (vcom-1195) Cannot find expanded name "work.ex02_edge_detector".
+** Error: C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_edge_detector_tb.vhd(27): Unknown expanded name.
+** Note: C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_edge_detector_tb.vhd(72): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_debouncer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_debouncer.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex02_debouncer
+-- Compiling architecture deb of ex02_debouncer
+
+} {} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_debouncer_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_debouncer_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex02_debouncer_tb
+-- Compiling architecture arch of ex02_debouncer_tb
+-- Loading entity ex02_debouncer
+
+} {} {}}

@@ -1,0 +1,87 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+
+# Written on Mon Jun  3 20:48:42 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ex03_top_lfsr"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                              Ending                                |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ex03_top_lfsr|i_clk                   ex03_top_lfsr|i_clk                   |     10.000           |     No paths         |     No paths         |     No paths                         
+ex03_clkdiv|clk_derived_clock         ex03_clkdiv|clk_derived_clock         |     10.000           |     No paths         |     No paths         |     No paths                         
+ex03_clkdiv_sel|clk_derived_clock     ex03_clkdiv_sel|clk_derived_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:i_reset_n
+p:i_sw_n[0]
+p:i_sw_n[1]
+p:i_sw_n[2]
+p:i_sw_n[3]
+p:o_led_n[0]
+p:o_led_n[1]
+p:o_led_n[2]
+p:o_led_n[3]
+p:o_led_n[4]
+p:o_led_n[5]
+p:o_led_n[6]
+p:o_led_n[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

@@ -1,0 +1,28 @@
+# Reading pref.tcl
+# Loading project TestBlatt02
+# Compile of edge_detector.vhd was successful.
+# Compile of ex02_debouncer.vhd was successful.
+# Compile of ex02_debouncer_tb.vhd was successful.
+# Compile of ex02_edge_detector_tb.vhd failed with 3 errors.
+# Compile of ex02_top.vhd was successful.
+# 5 compiles, 1 failed with 3 errors.
+# Errors: 0, Warnings: 0
+# Compile of ex02_top.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of edge_detector.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of ex02_debouncer.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of ex02_debouncer_tb.vhd was successful.
+# Errors: 3, Warnings: 0
+# Errors: 3, Warnings: 0
+# Errors: 3, Warnings: 0
+# Compile of ex02_edge_detector_tb.vhd failed.
+# Compile of ex02_top.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of ex02_debouncer.vhd was successful.
+# Compile of ex02_debouncer_tb.vhd was successful.
+# Compile of ex02_edge_detector_tb.vhd failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+# Project file C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/TestBlatt02.mpf is write protected, data cannot be saved.
+# Unable to save project.

@@ -1,0 +1,11 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd":7:7:7:14|Top entity is set to ex00_top.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_and.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_xor.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd'.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_top.vhd":7:7:7:14|Synthesizing work.ex00_top.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt00\impl1\source\ex00_xor.vhd":7:7:7:14|Synthesizing work.ex00_xor.arch2.
+@N|Running in 64-bit mode
+

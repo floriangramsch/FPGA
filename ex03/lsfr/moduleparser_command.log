@@ -1,0 +1,1 @@
+E:/Programs/Iscc/diamond/3.13/bin/nt64/moduleparser.exe -PROJ lsfr -pf E:/Programs/Iscc/diamond/3.13/cae_library/synthesis/vhdl/machxo3l.vhd -lib machxo3l -pf E:/Programs/Iscc/diamond/3.13/cae_library/synthesis/verilog/machxo3l.v -pkg E:/Programs/Iscc/diamond/3.13/cae_library/vhdl_packages/vdbs -lst C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/lsfr/source_files.lst

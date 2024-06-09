@@ -1,0 +1,18 @@
+---------------------------------------------------
+Report for cell ex01_top_adder
+   Instance path: ex01_top_adder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00        100.0
+                                  LUT4	       6.00        100.0
+                                 IOBUF	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            ex01_adder	          1        66.7
+---------------------------------------------------
+Report for cell ex01_adder
+   Instance path: ex01_top_adder/i_adder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        66.7
+                                  LUT4	       4.00        66.7

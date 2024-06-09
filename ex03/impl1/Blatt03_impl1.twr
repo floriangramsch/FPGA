@@ -1,0 +1,96 @@
+
+Loading design for application trce from file blatt03_impl1.ncd.
+Design name: ex03_top_lfsr
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: E:/Programs/Iscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
+Mon Jun 03 20:49:29 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o Blatt03_impl1.twr -gui -msgset C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/promote.xml Blatt03_impl1.ncd Blatt03_impl1.prf 
+Design file:     blatt03_impl1.ncd
+Preference file: blatt03_impl1.prf
+Device,speed:    LCMXO3LF-6900C,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: Default path enumeration
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: Default net enumeration
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    1.516ns maximum delay on VCC
+
+           Delays             Connection(s)
+           1.516ns       R22C40A.F0 to J13.PADDO       
+           1.516ns       R22C40A.F0 to J11.PADDO       
+           1.516ns       R22C40A.F0 to L12.PADDO       
+           1.123ns       R22C40A.F0 to K11.PADDO       
+           1.123ns       R22C40A.F0 to L13.PADDO       
+           1.416ns       R22C40A.F0 to N15.PADDO       
+           1.416ns       R22C40A.F0 to P16.PADDO       
+           1.516ns       R22C40A.F0 to H11.PADDO       
+
+Report:    1.516ns is the maximum delay for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |            -|            -|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     1.516 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 0 clocks:
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 0 paths, 1 nets, and 8 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+

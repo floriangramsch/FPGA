@@ -1,0 +1,22 @@
+i e_clkdiv_sel.clk_i
+m 0 0
+u 1 8
+n ckid0_0 {t:e_lfsr8.lfsr[7:0].C} Derived clock on input (not legal for GCC)
+p {t:e_clkdiv_sel.clk.Q[0]}{t:e_clkdiv_sel.clk_derived_clock.I[0]}{t:e_clkdiv_sel.clk_derived_clock.OUT[0]}{p:e_clkdiv_sel.o_clk}{t:e_clkdiv_sel.o_clk}{t:e_lfsr8.i_clk}{p:e_lfsr8.i_clk}{t:e_lfsr8.lfsr[7:0].C}
+e ckid0_0 {t:e_lfsr8.lfsr[7:0].C} dffr
+d ckid0_1 {t:e_clkdiv_sel.clk.Q[0]} dffre Derived clock on input (not legal for GCC)
+i e_clkdiv.clk_i
+m 0 0
+u 2 33
+n ckid0_2 {t:e_clkdiv_sel.clk.C} Derived clock on input (not legal for GCC)
+p {t:e_clkdiv.clk.Q[0]}{t:e_clkdiv.clk_derived_clock.I[0]}{t:e_clkdiv.clk_derived_clock.OUT[0]}{p:e_clkdiv.o_clk}{t:e_clkdiv.o_clk}{t:e_clkdiv_sel.i_clk}{p:e_clkdiv_sel.i_clk}{t:e_clkdiv_sel.clk.C}
+e ckid0_2 {t:e_clkdiv_sel.clk.C} dffre
+d ckid0_3 {t:e_clkdiv.clk.Q[0]} dffre Derived clock on input (not legal for GCC)
+i i_clk
+m 0 0
+u 2 20
+p {p:i_clk}{t:e_clkdiv.i_clk}{p:e_clkdiv.i_clk}{t:e_clkdiv.clk.C}
+e ckid0_4 {t:e_clkdiv.clk.C} dffre
+c ckid0_4 {p:i_clk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,3 @@
+Abgabe Exercise 02 Adrian Schmitt  und Florian Gramsch
+
+Edge detector test bench hat bei mir fehlermeldungen verursacht

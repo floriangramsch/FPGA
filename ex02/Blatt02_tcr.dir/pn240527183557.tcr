@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/27/2024 18:25:45
+#Project Location: C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02; Project name: Blatt02
+prj_project new -name "Blatt02" -impl "impl1" -dev LCMXO3LF-6900C-5BG256C -synthesis "synplify"
+file copy -force -- "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/edge_detector.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_debouncer.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_top.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source"
+prj_src add "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/edge_detector.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/ex02_debouncer.vhd" "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/ex02_top.vhd"
+prj_project save
+prj_run Export -impl impl1 -task Bitgen
+prj_src add "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/ex02_edge_detector.vhd"
+prj_src remove "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt02/impl1/source/edge_detector.vhd"
+#Stop recording: 5/27/2024 18:35:57

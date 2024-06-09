@@ -1,0 +1,51 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp202303synp1, Build 173R, Built Aug 31 2023 03:59:48, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+13       C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd (2024-06-03 17:38:23, 2024-06-03 20:47:53)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+6        work.ex03_lfsr8.arch may have changed because the following files changed:
+                        C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd (2024-06-03 17:38:23, 2024-06-03 20:47:53) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 13
+FID:  path (timestamp)
+11       C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd (2024-06-01 14:38:53)
+12       C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd (2024-06-01 14:43:19)
+14       C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_top_lfsr.vhd (2024-06-02 15:38:24)
+1        E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd (2021-02-24 23:38:16)
+2        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\arith.vhd (2023-08-10 09:32:12)
+3        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\hyperents.vhd (2023-08-10 09:32:12)
+4        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\location.map (2023-08-30 15:59:46)
+5        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\numeric.vhd (2023-08-10 09:32:12)
+6        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\snps_haps_pkg.vhd (2023-08-10 09:32:12)
+7        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\std.vhd (2023-08-10 09:32:12)
+8        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\std1164.vhd (2023-08-10 09:32:12)
+9        E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\umr_capim.vhd (2023-08-10 09:32:12)
+10       E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\unsigned.vhd (2023-08-10 09:32:12)
+
+*******************************************************************
+Unchanged modules: 6
+MID:  lib.cell.view
+2        work.ex03_clkdiv.arch
+3        work.ex03_clkdiv.vhdl
+4        work.ex03_clkdiv_sel.arch
+5        work.ex03_clkdiv_sel.vhdl
+8        work.ex03_top_lfsr.arch
+9        work.ex03_top_lfsr.vhdl

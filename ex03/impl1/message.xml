@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo3c00f.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1100523</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(37): Semantic error in &quot;FREQUENCY PORT &quot;i_clk&quot; 12.000000 MHz ;&quot;: </Dynamic>
+            <Dynamic>&quot;i_clk&quot; matches no ports in the design. </Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(28): Semantic error in &quot;IOBUF PORT &quot;i_sw_n[3]&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_sw_n[3]</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(29): Semantic error in &quot;IOBUF PORT &quot;i_sw_n[0]&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_sw_n[0]</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(30): Semantic error in &quot;IOBUF PORT &quot;i_sw_n[1]&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_sw_n[1]</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(31): Semantic error in &quot;IOBUF PORT &quot;i_sw_n[2]&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_sw_n[2]</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>31</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(34): Semantic error in &quot;IOBUF PORT &quot;i_reset_n&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_reset_n</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf(38): Semantic error in &quot;IOBUF PORT &quot;i_clk&quot; PULLMODE=NONE IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>i_clk</Dynamic>
+            <Navigation>C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt03/Blatt03.lpf</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_sw_n[3:0](3)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_sw_n[3:0](2)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_sw_n[3:0](1)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_sw_n[3:0](0)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_clk</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_reset_n</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_sw_n[0]</Dynamic>
+            <Navigation>i_sw_n[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_sw_n[1]</Dynamic>
+            <Navigation>i_sw_n[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_sw_n[2]</Dynamic>
+            <Navigation>i_sw_n[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_sw_n[3]</Dynamic>
+            <Navigation>i_sw_n[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_clk</Dynamic>
+            <Navigation>i_clk</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>i_reset_n</Dynamic>
+            <Navigation>i_reset_n</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>6</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD749 :&quot;C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd&quot;:50:21:50:46|Index value of type natural (or large positive integer) could be out of prefix range 0 to 15</Dynamic>
+            <Navigation>CD749</Navigation>
+            <Navigation>C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Index value of type natural (or large positive integer) could be out of prefix range 0 to 15 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd&quot;:28:4:28:5|Found inferred clock ex03_top_lfsr|i_clk which controls 20 sequential elements including e_clkdiv.clk. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock ex03_top_lfsr|i_clk which controls 20 sequential elements including e_clkdiv.clk. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock ex03_top_lfsr|i_clk with period 10.00ns. Please declare a user-defined clock on port i_clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock ex03_top_lfsr|i_clk with period 10.00ns. Please declare a user-defined clock on port i_clk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

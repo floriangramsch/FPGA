@@ -1,0 +1,46 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt03\\impl1\\synwork\\Blatt03_impl1_comp.srs|-top|ex03_top_lfsr|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\bin64\\c_vhdl.exe":1693474890
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\location.map":1693403986
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\std.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\std1164.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\numeric.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\umr_capim.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\arith.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\unsigned.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\synpbase\\lib\\vhd\\hyperents.vhd":1691652732
+#CUR:"E:\\Programs\\Iscc\\diamond\\3.13\\cae_library\\synthesis\\vhdl\\machxo3l.vhd":1614206296
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt03\\ex03\\ex03_clkdiv.vhd":1717245533
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt03\\ex03\\ex03_clkdiv_sel.vhd":1717245799
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt03\\ex03\\ex03_lfsr8.vhd":1717440473
+#CUR:"C:\\Users\\Flori\\iCloudDrive\\Uni\\sose24\\fpga\\sheets\\blatt03\\ex03\\ex03_top_lfsr.vhd":1717335504
+0 "E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd" vhdl
+1 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv.vhd" vhdl
+2 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_clkdiv_sel.vhd" vhdl
+3 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_lfsr8.vhd" vhdl
+4 "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt03\ex03\ex03_top_lfsr.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 1 2 3 
+
+# Dependency Lists (Users Of)
+0 -1
+1 4 
+2 4 
+3 4 
+4 -1
+
+# Design Unit to File Association
+arch work ex03_clkdiv arch 1
+module work ex03_clkdiv 1
+arch work ex03_clkdiv_sel arch 2
+module work ex03_clkdiv_sel 2
+arch work ex03_lfsr8 arch 3
+module work ex03_lfsr8 3
+arch work ex03_top_lfsr arch 4
+module work ex03_top_lfsr 4

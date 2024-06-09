@@ -1,0 +1,138 @@
+(edif ex03_top_lfsr
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2024 6 3 20 49 3)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "U-2023.03L-SP1, mapper map202303lat, Build 132R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell OB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell ex03_top_lfsr (cellType GENERIC)
+       (view arch (viewType NETLIST)
+         (interface
+           (port (array (rename o_led_n "o_led_n(7:0)") 8) (direction OUTPUT))
+           (port (array (rename i_sw_n "i_sw_n(3:0)") 4) (direction INPUT))
+           (port i_clk (direction INPUT))
+           (port i_reset_n (direction INPUT))
+         )
+         (contents
+          (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (instance (rename o_led_n_pad_7 "o_led_n_pad[7]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_6 "o_led_n_pad[6]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_5 "o_led_n_pad[5]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_4 "o_led_n_pad[4]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_3 "o_led_n_pad[3]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_2 "o_led_n_pad[2]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_1 "o_led_n_pad[1]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename o_led_n_pad_0 "o_led_n_pad[0]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (net VCC (joined
+           (portRef Z (instanceRef VCC_0))
+           (portRef I (instanceRef o_led_n_pad_0))
+           (portRef I (instanceRef o_led_n_pad_1))
+           (portRef I (instanceRef o_led_n_pad_2))
+           (portRef I (instanceRef o_led_n_pad_3))
+           (portRef I (instanceRef o_led_n_pad_4))
+           (portRef I (instanceRef o_led_n_pad_5))
+           (portRef I (instanceRef o_led_n_pad_6))
+           (portRef I (instanceRef o_led_n_pad_7))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net (rename o_led_n_0 "o_led_n[0]") (joined
+           (portRef O (instanceRef o_led_n_pad_0))
+           (portRef (member o_led_n 7))
+          ))
+          (net (rename o_led_n_1 "o_led_n[1]") (joined
+           (portRef O (instanceRef o_led_n_pad_1))
+           (portRef (member o_led_n 6))
+          ))
+          (net (rename o_led_n_2 "o_led_n[2]") (joined
+           (portRef O (instanceRef o_led_n_pad_2))
+           (portRef (member o_led_n 5))
+          ))
+          (net (rename o_led_n_3 "o_led_n[3]") (joined
+           (portRef O (instanceRef o_led_n_pad_3))
+           (portRef (member o_led_n 4))
+          ))
+          (net (rename o_led_n_4 "o_led_n[4]") (joined
+           (portRef O (instanceRef o_led_n_pad_4))
+           (portRef (member o_led_n 3))
+          ))
+          (net (rename o_led_n_5 "o_led_n[5]") (joined
+           (portRef O (instanceRef o_led_n_pad_5))
+           (portRef (member o_led_n 2))
+          ))
+          (net (rename o_led_n_6 "o_led_n[6]") (joined
+           (portRef O (instanceRef o_led_n_pad_6))
+           (portRef (member o_led_n 1))
+          ))
+          (net (rename o_led_n_7 "o_led_n[7]") (joined
+           (portRef O (instanceRef o_led_n_pad_7))
+           (portRef (member o_led_n 0))
+          ))
+          (net (rename i_sw_n_0 "i_sw_n[0]") (joined
+           (portRef (member i_sw_n 3))
+          ))
+          (net (rename i_sw_n_1 "i_sw_n[1]") (joined
+           (portRef (member i_sw_n 2))
+          ))
+          (net (rename i_sw_n_2 "i_sw_n[2]") (joined
+           (portRef (member i_sw_n 1))
+          ))
+          (net (rename i_sw_n_3 "i_sw_n[3]") (joined
+           (portRef (member i_sw_n 0))
+          ))
+          (net i_clk (joined
+           (portRef i_clk)
+          ))
+          (net i_reset_n (joined
+           (portRef i_reset_n)
+          ))
+         )
+        (property orig_inst_of (string "ex03_top_lfsr"))
+       )
+    )
+  )
+  (design ex03_top_lfsr (cellRef ex03_top_lfsr (libraryRef work))
+	(property PART (string "lcmxo3lf_6900c-5") ))
+)

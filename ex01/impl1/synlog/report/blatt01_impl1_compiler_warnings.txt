@@ -1,0 +1,3 @@
+@W: CG296 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_adder.vhd":24:4:24:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_adder.vhd":36:65:36:69|Referenced variable carry is not in sensitivity list.
+

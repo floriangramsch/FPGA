@@ -1,0 +1,978 @@
+
+synpwrap -msg -prj "blatt01_impl1_synplify.tcl" -log "blatt01_impl1.srf"
+Copyright (C) 1992-2023 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.13.0.56.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of blatt01_impl1.srf
+#Build: Synplify Pro (R) U-2023.03L-SP1, Build 153R, Aug 10 2023
+#install: E:\Programs\Iscc\diamond\3.13\synpbase
+#OS: Windows 10 or later
+#Hostname: FLOS-DESKTOP
+
+# Mon May 20 20:27:52 2024
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202303synp1, Build 173R, Built Aug 31 2023 03:59:48, @
+
+@N|Running in 64-bit mode
+Location map warning "E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\location.map":46 - Attempted redefinition of package mach.components
+@N:"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":7:7:7:20|Top entity is set to ex01_top_adder.
+Options changed - recompiling
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_halfAdder.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_adder.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd'.
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":7:7:7:20|Synthesizing work.ex01_top_adder.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_adder.vhd":5:7:5:16|Synthesizing work.ex01_adder.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_halfAdder.vhd":6:7:6:20|Synthesizing work.ex01_halfadder.arch1.
+Post processing for work.ex01_halfadder.arch1
+Running optimization stage 1 on ex01_halfAdder .......
+Finished optimization stage 1 on ex01_halfAdder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Post processing for work.ex01_adder.arch
+Running optimization stage 1 on ex01_adder .......
+Finished optimization stage 1 on ex01_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Post processing for work.ex01_top_adder.arch
+Running optimization stage 1 on ex01_top_adder .......
+Finished optimization stage 1 on ex01_top_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on ex01_halfAdder .......
+Finished optimization stage 2 on ex01_halfAdder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on ex01_adder .......
+Finished optimization stage 2 on ex01_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on ex01_top_adder .......
+@N: CL159 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":15:8:15:12|Input i_clk is unused.
+@N: CL159 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\source\ex01_top_adder.vhd":17:8:17:16|Input i_reset_n is unused.
+Finished optimization stage 2 on ex01_top_adder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 20 20:27:55 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+File C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 20 20:27:55 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\blatt01_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 30MB peak: 31MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 20 20:27:56 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+File C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\blatt01_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 20 20:27:57 2024
+
+###########################################################]
+# Mon May 20 20:27:57 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 122MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 136MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\blatt01_impl1_scck.rpt 
+See clock summary report "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\blatt01_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist ex01_top_adder 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 196MB peak: 196MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 196MB peak: 196MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 196MB peak: 196MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 198MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+# Mon May 20 20:28:01 2024
+
+###########################################################]
+# Mon May 20 20:28:02 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 122MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 192MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 195MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 195MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 196MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 196MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 197MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		100000.00ns		   5 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 198MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 198MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 198MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 198MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 198MB)
+
+Writing Analyst data base C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\synwork\blatt01_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 198MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt01\impl1\blatt01_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 207MB peak: 207MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 207MB peak: 207MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 206MB peak: 207MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May 20 20:28:09 2024
+#
+
+
+Top view:               ex01_top_adder
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 206MB peak: 207MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 206MB peak: 207MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3lf_6900c-5
+
+Register bits: 0 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       12
+
+
+Details:
+GSR:            1
+IB:             4
+INV:            1
+OB:             8
+ORCALUT4:       4
+PUR:            1
+VHI:            2
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 68MB peak: 207MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:04s cputime
+# Mon May 20 20:28:09 2024
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO3LF" -d LCMXO3LF-6900C -path "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1" -path "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01"   "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/blatt01_impl1.edi" "blatt01_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to blatt01_impl1.ngo...
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 10 MB
+
+
+ngdbuild  -a "MachXO3LF" -d LCMXO3LF-6900C  -p "E:/Programs/Iscc/diamond/3.13/ispfpga/xo3c00f/data"  -p "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1" -p "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01"  "blatt01_impl1.ngo" "blatt01_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'blatt01_impl1.ngo' ...
+Loading NGL library 'E:/Programs/Iscc/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Programs/Iscc/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Programs/Iscc/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Programs/Iscc/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="i_clk" arg2="i_clk"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="i_reset_n" arg2="i_reset_n"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="2"  />
+
+Design Results:
+     22 blocks expanded
+Complete the first expansion.
+Writing 'blatt01_impl1.ngd' ...
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 17 MB
+
+
+map -a "MachXO3LF" -p LCMXO3LF-6900C -t CABGA256 -s 5 -oc Commercial   "blatt01_impl1.ngd" -o "blatt01_impl1_map.ncd" -pr "blatt01_impl1.prf" -mp "blatt01_impl1.mrp" -lpf "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/impl1/blatt01_impl1_synplify.lpf" -lpf "C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf"  -c 0           
+map:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: blatt01_impl1.ngd
+   Picdevice="LCMXO3LF-6900C"
+
+   Pictype="CABGA256"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO3LF-6900CCABGA256, Performance used: 5.
+
+    <postMsg mid="1100523" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf(37): Semantic error in &quot;FREQUENCY PORT &quot;i_clk&quot; 12.000000 MHz ;&quot;: " arg1="&quot;i_clk&quot; matches no ports in the design. " arg2="C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf" arg3="37"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf(34): Semantic error in &quot;IOBUF PORT &quot;i_reset_n&quot; PULLMODE=UP IO_TYPE=LVCMOS33 ;&quot;: " arg1="i_reset_n" arg2="C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf" arg3="34"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf(38): Semantic error in &quot;IOBUF PORT &quot;i_clk&quot; PULLMODE=NONE IO_TYPE=LVCMOS33 ;&quot;: " arg1="i_clk" arg2="C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/blatt01/blatt01.lpf" arg3="38"  />
+Loading device for application map from file 'xo3c6900.nph' in environment: E:/Programs/Iscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="i_clk"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="i_reset_n"  />
+
+
+
+Design Summary:
+   Number of registers:      0 out of  7485 (0%)
+      PFU registers:            0 out of  6864 (0%)
+      PIO registers:            0 out of   621 (0%)
+   Number of SLICEs:         3 out of  3432 (0%)
+      SLICEs as Logic/ROM:      3 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:          6 out of  6864 (0%)
+      Number used as logic LUTs:          6
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 12 + 4(JTAG) out of 207 (8%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  0
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net i_sw_n_c[0]: 5 loads
+     Net i_sw_n_c[1]: 4 loads
+     Net i_sw_n_c[2]: 3 loads
+     Net VCC: 3 loads
+     Net i_sw_n_c[3]: 2 loads
+     Net i_sw_n_c_i[0]: 1 loads
+     Net led_i[4]: 1 loads
+     Net N_13_i: 1 loads
+     Net N_15_i_i: 1 loads
+     Net N_16_i_i: 1 loads
+ 
+
+   Number of warnings:  5
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 2 secs  
+Peak Memory Usage: 58 MB
+
+Dumping design to file blatt01_impl1_map.ncd.
+
+mpartrce -p "blatt01_impl1.p2t" -f "blatt01_impl1.p3t" -tf "blatt01_impl1.pt" "blatt01_impl1_map.ncd" "blatt01_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "blatt01_impl1_map.ncd"
+Mon May 20 20:28:16 2024
+
+PAR: Place And Route Diamond (64-bit) 3.13.0.56.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 blatt01_impl1_map.ncd blatt01_impl1.dir/5_1.ncd blatt01_impl1.prf
+Preference file: blatt01_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file blatt01_impl1_map.ncd.
+Design name: ex01_top_adder
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application par from file 'xo3c6900.nph' in environment: E:/Programs/Iscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   12+4(JTAG)/336     5% used
+                  12+4(JTAG)/207     8% bonded
+
+   SLICE              3/3432         <1% used
+
+
+
+Number of Signals: 10
+Number of Connections: 22
+
+Pin Constraint Summary:
+   12 out of 12 pins locked (100% locked).
+
+No signal is selected as primary clock.
+
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+..................
+Placer score = 10675.
+Finished Placer Phase 1.  REAL time: 2 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  10675
+Finished Placer Phase 2.  REAL time: 2 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+
+  PRIMARY  : 0 out of 8 (0%)
+  SECONDARY: 0 out of 8 (0%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   12 + 4(JTAG) out of 336 (4.8%) PIO sites used.
+   12 + 4(JTAG) out of 207 (7.7%) bonded PIO sites used.
+   Number of PIO comps: 12; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+-----------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref |
++----------+---------------+------------+-----------+
+| 0        | 0 / 51 (  0%) | -          | -         |
+| 1        | 8 / 52 ( 15%) | 3.3V       | -         |
+| 2        | 0 / 52 (  0%) | -          | -         |
+| 3        | 4 / 16 ( 25%) | 3.3V       | -         |
+| 4        | 0 / 16 (  0%) | -          | -         |
+| 5        | 0 / 20 (  0%) | -          | -         |
++----------+---------------+------------+-----------+
+
+Total placer CPU time: 0 secs 
+
+Dumping design to file blatt01_impl1.dir/5_1.ncd.
+
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 22 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 4 secs 
+
+Start NBR router at 20:28:20 05/20/24
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 20:28:20 05/20/24
+
+Start NBR section for initial routing at 20:28:20 05/20/24
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 20:28:20 05/20/24
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+
+Start NBR section for re-routing at 20:28:20 05/20/24
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 4 secs 
+
+Start NBR section for post-routing at 20:28:20 05/20/24
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 0 secs 
+Total REAL time: 4 secs 
+Completely routed.
+End of route.  22 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file blatt01_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 1 secs 
+Total REAL time to completion: 4 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "blatt01_impl1.pt" -o "blatt01_impl1.twr" "blatt01_impl1.ncd" "blatt01_impl1.prf"
+trce:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file blatt01_impl1.ncd.
+Design name: ex01_top_adder
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: E:/Programs/Iscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
+Mon May 20 20:28:21 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o blatt01_impl1.twr -gui blatt01_impl1.ncd blatt01_impl1.prf 
+Design file:     blatt01_impl1.ncd
+Preference file: blatt01_impl1.prf
+Device,speed:    LCMXO3LF-6900C,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 14 paths, 10 nets, and 22 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 66 MB
+
+
+tmcheck -par "blatt01_impl1.par" 
+
+bitgen -f "blatt01_impl1.t2b" -w "blatt01_impl1.ncd"  "blatt01_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.13.0.56.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file blatt01_impl1.ncd.
+Design name: ex01_top_adder
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application Bitgen from file 'xo3c6900.nph' in environment: E:/Programs/Iscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from blatt01_impl1.prf.
+    <postMsg mid="1009992" type="Info"    dynamic="1" navigation="0" arg0=" SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo3c00f.acd ###"  />
+    <postMsg mid="1009992" type="Info"    dynamic="1" navigation="0" arg0=" SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK"  />
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 DUALBOOTGOLDEN  |                     INTERNAL**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "blatt01_impl1.bit".
+Total CPU Time: 1 secs 
+Total REAL Time: 4 secs 
+Peak Memory Usage: 290 MB

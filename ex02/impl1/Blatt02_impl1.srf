@@ -1,0 +1,635 @@
+#Build: Synplify Pro (R) U-2023.03L-SP1, Build 153R, Aug 10 2023
+#install: E:\Programs\Iscc\diamond\3.13\synpbase
+#OS: Windows 10 or later
+#Hostname: FLOS-DESKTOP
+
+# Mon May 27 18:28:46 2024
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202303synp1, Build 173R, Built Aug 31 2023 03:59:48, @
+
+@N|Running in 64-bit mode
+Location map warning "E:\Programs\Iscc\diamond\3.13\synpbase\lib\vhd\location.map":46 - Attempted redefinition of package mach.components
+@N:"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd":7:7:7:14|Top entity is set to ex02_top.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'E:\Programs\Iscc\diamond\3.13\cae_library\synthesis\vhdl\machxo3l.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\edge_detector.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd'.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd":7:7:7:14|Synthesizing work.ex02_top.arch.
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":5:7:5:20|Synthesizing work.ex02_debouncer.deb.
+Post processing for work.ex02_debouncer.deb
+Running optimization stage 1 on ex02_debouncer .......
+@A: CL282 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Feedback mux created for signal last_d. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on ex02_debouncer (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+@N: CD630 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\edge_detector.vhd":5:7:5:19|Synthesizing work.edge_detector.det.
+Post processing for work.edge_detector.det
+Running optimization stage 1 on edge_detector .......
+Finished optimization stage 1 on edge_detector (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Post processing for work.ex02_top.arch
+Running optimization stage 1 on ex02_top .......
+Finished optimization stage 1 on ex02_top (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on edge_detector .......
+Finished optimization stage 2 on edge_detector (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 92MB)
+Running optimization stage 2 on ex02_debouncer .......
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Pruning register bit 31 of counter(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(24) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(25) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(26) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(27) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(29) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Optimizing register bit counter(30) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Pruning register bits 30 to 24 of counter(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on ex02_debouncer (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 92MB)
+Running optimization stage 2 on ex02_top .......
+@W: CL246 :"C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_top.vhd":12:4:12:9|Input port bits 3 to 2 of i_sw_n(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on ex02_top (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 92MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 90MB peak: 92MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Mon May 27 18:28:49 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 27 18:28:49 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\synwork\Blatt02_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 30MB peak: 31MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Mon May 27 18:28:50 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 27 18:28:51 2024
+
+###########################################################]
+Premap Report
+
+# Mon May 27 18:28:51 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 122MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 136MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\Blatt02_impl1_scck.rpt 
+See clock summary report "C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\Blatt02_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+NConnInternalConnection caching is on
+@N: FX493 |Applying initial value "0" on instance last_d.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance last_d.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 193MB peak: 194MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 195MB peak: 195MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 195MB peak: 196MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 195MB peak: 196MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 195MB peak: 196MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist ex02_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 195MB peak: 196MB)
+
+
+
+Clock Summary
+******************
+
+          Start              Requested     Requested     Clock        Clock          Clock
+Level     Clock              Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------
+0 -       ex02_top|i_clk     100.0 MHz     10.000        inferred     (multiple)     28   
+==========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                   Clock     Source          Clock Pin             Non-clock Pin     Non-clock Pin
+Clock              Load      Pin             Seq Example           Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------
+ex02_top|i_clk     28        i_clk(port)     e_debouncer.o_q.C     -                 -            
+==================================================================================================
+
+@W: MT529 :"c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt02\impl1\source\edge_detector.vhd":23:1:23:2|Found inferred clock ex02_top|i_clk which controls 28 sequential elements including e_edge_detector.last_d. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 28 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance   
+------------------------------------------------------------------------------------------
+@KP:ckid0_0       i_clk               port                   28         e_debouncer.last_d
+==========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 196MB peak: 196MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 196MB peak: 197MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 197MB peak: 197MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 113MB peak: 199MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Mon May 27 18:28:57 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Mon May 27 18:28:57 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: E:\Programs\Iscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FLOS-DESKTOP
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 122MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 192MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 195MB)
+
+@N: MO231 :"c:\users\flori\iclouddrive\uni\sose24\fpga\sheets\blatt02\impl1\source\ex02_debouncer.vhd":30:1:30:2|Found counter in view:work.ex02_debouncer(deb) instance counter[23:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 196MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 197MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 197MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 198MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 198MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 197MB peak: 198MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 198MB peak: 198MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 198MB peak: 198MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     3.41ns		  14 /        28
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 199MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 198MB peak: 199MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 199MB peak: 199MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 199MB peak: 199MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 199MB)
+
+Writing Analyst data base C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\synwork\Blatt02_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 200MB peak: 200MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Flori\iCloudDrive\Uni\sose24\fpga\sheets\blatt02\impl1\Blatt02_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 208MB peak: 208MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 208MB peak: 208MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 207MB peak: 208MB)
+
+@W: MT420 |Found inferred clock ex02_top|i_clk with period 10.00ns. Please declare a user-defined clock on port i_clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May 27 18:29:04 2024
+#
+
+
+Top view:               ex02_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.778
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+ex02_top|i_clk     100.0 MHz     138.5 MHz     10.000        7.222         2.778     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+ex02_top|i_clk  ex02_top|i_clk  |  10.000      2.778  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ex02_top|i_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                               Arrival          
+Instance                    Reference          Type        Pin     Net             Time        Slack
+                            Clock                                                                   
+----------------------------------------------------------------------------------------------------
+e_debouncer.last_d          ex02_top|i_clk     FD1P3AX     Q       last_d          1.108       2.778
+e_debouncer.counter[7]      ex02_top|i_clk     FD1P3DX     Q       counter[7]      1.044       3.005
+e_debouncer.counter[8]      ex02_top|i_clk     FD1P3DX     Q       counter[8]      1.044       3.005
+e_debouncer.counter[9]      ex02_top|i_clk     FD1P3DX     Q       counter[9]      1.044       3.005
+e_debouncer.counter[10]     ex02_top|i_clk     FD1P3DX     Q       counter[10]     1.044       3.005
+e_debouncer.counter[11]     ex02_top|i_clk     FD1P3DX     Q       counter[11]     1.044       4.021
+e_debouncer.counter[12]     ex02_top|i_clk     FD1P3DX     Q       counter[12]     1.044       4.021
+e_debouncer.counter[13]     ex02_top|i_clk     FD1P3DX     Q       counter[13]     1.044       4.021
+e_debouncer.counter[16]     ex02_top|i_clk     FD1P3DX     Q       counter[16]     1.044       4.021
+e_debouncer.counter[17]     ex02_top|i_clk     FD1P3DX     Q       counter[17]     1.044       4.021
+====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                                 Required          
+Instance                    Reference          Type        Pin     Net               Time         Slack
+                            Clock                                                                      
+-------------------------------------------------------------------------------------------------------
+e_debouncer.counter[23]     ex02_top|i_clk     FD1P3DX     D       counter_s[23]     9.894        2.778
+e_debouncer.counter[21]     ex02_top|i_clk     FD1P3DX     D       counter_s[21]     9.894        2.921
+e_debouncer.counter[22]     ex02_top|i_clk     FD1P3DX     D       counter_s[22]     9.894        2.921
+e_debouncer.counter[0]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+e_debouncer.counter[1]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+e_debouncer.counter[2]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+e_debouncer.counter[3]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+e_debouncer.counter[4]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+e_debouncer.counter[5]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+e_debouncer.counter[6]      ex02_top|i_clk     FD1P3DX     SP      counter6_i        9.528        3.005
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      7.116
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.778
+
+    Number of logic level(s):                14
+    Starting point:                          e_debouncer.last_d / Q
+    Ending point:                            e_debouncer.counter[23] / D
+    The start point is clocked by            ex02_top|i_clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            ex02_top|i_clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+e_debouncer.last_d                FD1P3AX      Q        Out     1.108     1.108 r     -         
+last_d                            Net          -        -       -         -           3         
+e_debouncer.last_d_RNIR5O9        ORCALUT4     A        In      0.000     1.108 r     -         
+e_debouncer.last_d_RNIR5O9        ORCALUT4     Z        Out     1.344     2.452 r     -         
+counter                           Net          -        -       -         -           25        
+e_debouncer.counter_cry_0[0]      CCU2D        A1       In      0.000     2.452 r     -         
+e_debouncer.counter_cry_0[0]      CCU2D        COUT     Out     1.544     3.996 r     -         
+counter_cry[0]                    Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[1]      CCU2D        CIN      In      0.000     3.996 r     -         
+e_debouncer.counter_cry_0[1]      CCU2D        COUT     Out     0.143     4.139 r     -         
+counter_cry[2]                    Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[3]      CCU2D        CIN      In      0.000     4.139 r     -         
+e_debouncer.counter_cry_0[3]      CCU2D        COUT     Out     0.143     4.282 r     -         
+counter_cry[4]                    Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[5]      CCU2D        CIN      In      0.000     4.282 r     -         
+e_debouncer.counter_cry_0[5]      CCU2D        COUT     Out     0.143     4.425 r     -         
+counter_cry[6]                    Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[7]      CCU2D        CIN      In      0.000     4.425 r     -         
+e_debouncer.counter_cry_0[7]      CCU2D        COUT     Out     0.143     4.567 r     -         
+counter_cry[8]                    Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[9]      CCU2D        CIN      In      0.000     4.567 r     -         
+e_debouncer.counter_cry_0[9]      CCU2D        COUT     Out     0.143     4.710 r     -         
+counter_cry[10]                   Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[11]     CCU2D        CIN      In      0.000     4.710 r     -         
+e_debouncer.counter_cry_0[11]     CCU2D        COUT     Out     0.143     4.853 r     -         
+counter_cry[12]                   Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[13]     CCU2D        CIN      In      0.000     4.853 r     -         
+e_debouncer.counter_cry_0[13]     CCU2D        COUT     Out     0.143     4.996 r     -         
+counter_cry[14]                   Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[15]     CCU2D        CIN      In      0.000     4.996 r     -         
+e_debouncer.counter_cry_0[15]     CCU2D        COUT     Out     0.143     5.139 r     -         
+counter_cry[16]                   Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[17]     CCU2D        CIN      In      0.000     5.139 r     -         
+e_debouncer.counter_cry_0[17]     CCU2D        COUT     Out     0.143     5.282 r     -         
+counter_cry[18]                   Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[19]     CCU2D        CIN      In      0.000     5.282 r     -         
+e_debouncer.counter_cry_0[19]     CCU2D        COUT     Out     0.143     5.424 r     -         
+counter_cry[20]                   Net          -        -       -         -           1         
+e_debouncer.counter_cry_0[21]     CCU2D        CIN      In      0.000     5.424 r     -         
+e_debouncer.counter_cry_0[21]     CCU2D        COUT     Out     0.143     5.567 r     -         
+counter_cry[22]                   Net          -        -       -         -           1         
+e_debouncer.counter_s_0[23]       CCU2D        CIN      In      0.000     5.567 r     -         
+e_debouncer.counter_s_0[23]       CCU2D        S0       Out     1.549     7.116 r     -         
+counter_s[23]                     Net          -        -       -         -           1         
+e_debouncer.counter[23]           FD1P3DX      D        In      0.000     7.116 r     -         
+================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 207MB peak: 208MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 207MB peak: 208MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3lf_6900c-5
+
+Register bits: 28 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       12
+
+
+Details:
+CCU2D:          13
+FD1P3AX:        1
+FD1P3DX:        24
+FD1S3AX:        1
+GSR:            1
+IB:             4
+INV:            3
+OB:             8
+OFS1P3BX:       1
+OFS1P3JX:       1
+ORCALUT4:       9
+PUR:            1
+VHI:            3
+VLO:            3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 71MB peak: 208MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:04s cputime
+# Mon May 27 18:29:05 2024
+
+###########################################################]
