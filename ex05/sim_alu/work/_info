@@ -10,11 +10,11 @@ z2
 cModel Technology
 dE:/Programs/Iscc/diamond/3.13/modeltech/win32loem
 Eriscv_alu
-Z0 w1717956634
+Z0 w1717959477
 Z1 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
 Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
 Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 0
+!i122 4
 Z4 dC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/sim_alu
 Z5 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu.vhd
 Z6 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu.vhd
@@ -24,9 +24,9 @@ VCKA`_UDXOPGX?aZco]d<e2
 !s100 Ka=Ag@XngIj7S^PUnFn@D1
 Z7 OT;C;2023.3;77
 32
-Z8 !s110 1717958004
+Z8 !s110 1717959482
 !i10b 1
-Z9 !s108 1717958004.000000
+Z9 !s108 1717959482.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu.vhd|
 Z11 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu.vhd|
 !i113 1
@@ -37,11 +37,11 @@ R1
 R2
 R3
 Z14 DEx4 work 9 riscv_alu 0 22 CKA`_UDXOPGX?aZco]d<e2
-!i122 0
+!i122 4
 l22
-L20 5
-VI]a5`c:9`_GTHD<=^?9];2
-!s100 D[ZLQd]BPmHLX]GD7ZGM]0
+L20 57
+VEGW<n?0<iZQ][e?ZVjdNE0
+!s100 :bR18mImQlfEY?O@4PUol3
 R7
 32
 R8
@@ -57,7 +57,7 @@ Z15 w1717956442
 R1
 R2
 R3
-!i122 1
+!i122 5
 R4
 Z16 8C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd
 Z17 FC:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd
@@ -71,7 +71,7 @@ R8
 !i10b 1
 R9
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd|
-!s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd|
+Z19 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd|
 !i113 1
 R12
 R13
@@ -80,19 +80,19 @@ R14
 R1
 R2
 R3
-DEx4 work 12 riscv_alu_tb 0 22 `iOAzJna5b952:bzV_jd`3
-!i122 1
+Z20 DEx4 work 12 riscv_alu_tb 0 22 `iOAzJna5b952:bzV_jd`3
+!i122 5
 l25
-L13 85
-VH@zVNeo_o067eMNdZINSg0
-!s100 N9m_RFoSPWkYY^VIQjOOC3
+Z21 L13 85
+Z22 VH@zVNeo_o067eMNdZINSg0
+Z23 !s100 N9m_RFoSPWkYY^VIQjOOC3
 R7
 32
 R8
 !i10b 1
 R9
 R18
-Z19 !s107 C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd|
+R19
 !i113 1
 R12
 R13

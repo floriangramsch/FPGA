@@ -1,13 +1,4 @@
-C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu.vhd
-Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity riscv_alu
--- Compiling architecture rtl of riscv_alu
-
-} {} {}} C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd
+C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Flori/iCloudDrive/Uni/sose24/fpga/sheets/source/ex05/riscv_alu_tb.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
 -- Loading package STANDARD
 -- Loading package TEXTIO
