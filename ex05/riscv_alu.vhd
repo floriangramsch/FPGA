@@ -34,7 +34,7 @@ BEGIN
             WHEN "001" =>
                 IF i_funct7 = "0000000" THEN
                     -- SLL Operation
-                    o_d <= "00000000000000000000000000000011"; -- Beispielwert
+                    o_d <= "10000000000000000000000000000011"; -- Beispielwert
                 END IF;
             WHEN "010" =>
                 IF i_funct7 = "0000000" THEN
