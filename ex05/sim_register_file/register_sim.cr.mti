@@ -1,0 +1,20 @@
+C:/FPGA/FPGA/ex05/riscv_register_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/FPGA/FPGA/ex05/riscv_register_file.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity riscv_register_file
+-- Compiling architecture rtl of riscv_register_file
+
+} {} {}} C:/FPGA/FPGA/ex05/riscv_register_file_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/FPGA/FPGA/ex05/riscv_register_file_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity riscv_register_file_tb
+-- Compiling architecture arch of riscv_register_file_tb
+-- Loading entity riscv_register_file
+
+} {} {}}

@@ -1,0 +1,4 @@
+Abgabe Adrian Schmitt und Florian Gramsch
+
+SLL sollte funktionieren sieht aber in der Simulation komisch aus 
+und das Register aktualisiert die Werte erst einen Taktzyklus später und wir sind unsicher ob es so gewollt ist
