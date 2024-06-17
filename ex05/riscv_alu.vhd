@@ -18,7 +18,7 @@ ENTITY riscv_alu IS
 END ENTITY;
 
 ARCHITECTURE rtl OF riscv_alu IS
-
+signal shift_amount : integer := 0;
 BEGIN
     PROCESS (i_funct3, i_funct7)
     BEGIN
@@ -26,48 +26,62 @@ BEGIN
             WHEN "000" =>
                 IF i_funct7 = "0000000" THEN
                     -- ADD Operation
-                    o_d <= STD_LOGIC_VECTOR(signed(i_s1) + signed(i_s2)); -- Beispielwert
+                    o_d <= STD_LOGIC_VECTOR(signed(i_s1) + signed(i_s2)); 
                 ELSIF i_funct7 = "0100000" THEN
                     -- SUB Operation
-                    o_d <= STD_LOGIC_VECTOR(signed(i_s1) - signed(i_s2)); -- Beispielwert
+                    o_d <= STD_LOGIC_VECTOR(signed(i_s1) - signed(i_s2)); 
                 END IF;
+
             WHEN "001" =>
                 IF i_funct7 = "0000000" THEN
                     -- SLL Operation
-                    o_d <= "10000000000000000000000000000011"; -- Beispielwert
+                    shift_amount <= to_integer(unsigned(i_s2(4 downto 0)));
+                    o_d <= std_logic_vector(shift_left(unsigned(i_s1), shift_amount));
                 END IF;
+
             WHEN "010" =>
                 IF i_funct7 = "0000000" THEN
                     -- SLT Operation
-                    o_d <= "00000000000000000000000000000100"; -- Beispielwert
+                    IF signed(i_s1) < signed(i_s2) then
+                        o_d <= "00000000000000000000000000000001";
+                    ELSE 
+                        o_d <= "00000000000000000000000000000000";
+                    END IF;
                 END IF;
+
             WHEN "011" =>
                 IF i_funct7 = "0000000" THEN
                     -- SLTU Operation
-                    o_d <= "00000000000000000000000000000101"; -- Beispielwert
+                    IF unsigned(i_s1) < unsigned(i_s2) then
+                        o_d <= "00000000000000000000000000000001";
+                    ELSE 
+                        o_d <= "00000000000000000000000000000000";
+                    END IF;
                 END IF;
             WHEN "100" =>
                 IF i_funct7 = "0000000" THEN
                     -- XOR Operation
-                    o_d <= "00000000000000000000000000000110"; -- Beispielwert
+                    o_d <= i_s1 XOR i_s2;
                 END IF;
             WHEN "101" =>
                 IF i_funct7 = "0000000" THEN
                     -- SRL Operation
-                    o_d <= "00000000000000000000000000000111"; -- Beispielwert
+                    shift_amount <= to_integer(unsigned(i_s2(4 downto 0)));
+                    o_d <= std_logic_vector(shift_right(unsigned(i_s1), shift_amount));
                 ELSIF i_funct7 = "0100000" THEN
                     -- SRA Operation
-                    o_d <= "00000000000000000000000000001000"; -- Beispielwert
+                    shift_amount <= to_integer(unsigned(i_s2(4 downto 0)));
+                    o_d <= std_logic_vector(shift_right(signed(i_s1), shift_amount));
                 END IF;
             WHEN "110" =>
                 IF i_funct7 = "0000000" THEN
                     -- OR Operation
-                    o_d <= "00000000000000000000000000001001"; -- Beispielwert
+                    o_d <= i_s1 OR i_s2;
                 END IF;
             WHEN "111" =>
                 IF i_funct7 = "0000000" THEN
                     -- AND Operation
-                    o_d <= "00000000000000000000000000001010"; -- Beispielwert
+                    o_d <= i_s1 AND i_s2;
                 END IF;
             WHEN OTHERS =>
                 o_d <= (OTHERS => '0'); -- Defaultfall

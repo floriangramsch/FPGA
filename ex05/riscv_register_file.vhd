@@ -22,8 +22,22 @@ ENTITY riscv_register_file IS
 END ENTITY;
 
 architecture rtl of riscv_register_file is
-    
+    type Registers is array (0 to 31) of STD_LOGIC_VECTOR(31 DOWNTO 0);
+    signal register1 :Registers := (others => "00000000000000000000000000000000");
 begin
+    Process(i_clk)
+    Begin 
+    if rising_edge(i_clk) then
+        --schreiben
+        IF i_we = '1' and to_integer(unsigned(i_waddr)) /= 0 then
+            register1(to_integer(unsigned(i_waddr))) <= i_wdata;
+        END IF;
+
+        -- lesen
+        o_rdata1 <= register1(to_integer(unsigned(i_raddr1)));
+        o_rdata2 <= register1(to_integer(unsigned(i_raddr2)));
+    END IF;
+    END Process;
     
     
     
