@@ -20,7 +20,7 @@ BEGIN
     BEGIN
         IF rising_edge(i_clk) THEN
             o_rdata <= (OTHERS => '0');
-            -- Check if address is word-aligned by ensuring the two LSBs are 0
+            -- check alignment
             IF i_addr(1 DOWNTO 0) = "00" THEN
                 IF i_we = '1' THEN
                     -- Write operation
