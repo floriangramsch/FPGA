@@ -1,0 +1,41 @@
+E:/Studium/FPGA/ex07/scfifo_top.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Studium/FPGA/ex07/scfifo_top.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity scfifo_top
+-- Compiling architecture arch of scfifo_top
+-- Loading entity ex04_button_decoder
+-- Loading entity scfifo
+
+} {} {}} E:/Studium/FPGA/ex04/ex04_button_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Studium/FPGA/ex04/ex04_button_decoder.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex04_button_decoder
+-- Compiling architecture rtl of ex04_button_decoder
+-- Loading entity ex02_edge_detector
+
+} {} {}} E:/Studium/FPGA/ex02/ex02_edge_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Studium/FPGA/ex02/ex02_edge_detector.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ex02_edge_detector
+-- Compiling architecture det of ex02_edge_detector
+
+} {} {}} E:/Studium/FPGA/ex07/scfifo_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Studium/FPGA/ex07/scfifo_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2023.3 Compiler 2023.07 Jul 18 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity scfifo_tb
+-- Compiling architecture arch of scfifo_tb
+-- Loading entity scfifo
+
+} {} {}}

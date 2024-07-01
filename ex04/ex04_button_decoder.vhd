@@ -38,7 +38,7 @@ BEGIN
 
     falling_btn : ENTITY work.ex02_edge_detector
         GENERIC MAP(
-            g_EDGE => -1--,
+            g_EDGE => 2--,
         )
         PORT MAP(
             i_d => i_btn,

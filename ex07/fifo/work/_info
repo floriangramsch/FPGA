@@ -1,0 +1,230 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Programs/Iscc/diamond/3.13/modeltech/win32loem
+Eex02_edge_detector
+Z0 w1719736504
+Z1 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 65
+Z4 dE:/Studium/FPGA/ex07/fifo
+Z5 8E:/Studium/FPGA/ex02/ex02_edge_detector.vhd
+Z6 FE:/Studium/FPGA/ex02/ex02_edge_detector.vhd
+l0
+L6 1
+VC_`hzY7jSehKS`gXeEUA?0
+!s100 KcnAH=kdCQ0hKMLXM1SaM2
+Z7 OT;C;2023.3;77
+32
+Z8 !s110 1719738045
+!i10b 1
+Z9 !s108 1719738044.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex02/ex02_edge_detector.vhd|
+Z11 !s107 E:/Studium/FPGA/ex02/ex02_edge_detector.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1 CvgOpt 0
+Adet
+R1
+R2
+R3
+Z14 DEx4 work 18 ex02_edge_detector 0 22 C_`hzY7jSehKS`gXeEUA?0
+!i122 65
+l24
+L20 17
+VRE`3mO]CaAR;:UQ_lhZ_l2
+!s100 N<z88c8FIVeSWSk_=aNzb0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eex04_button_decoder
+Z15 w1719736564
+R1
+R2
+R3
+!i122 66
+R4
+Z16 8E:/Studium/FPGA/ex04/ex04_button_decoder.vhd
+Z17 FE:/Studium/FPGA/ex04/ex04_button_decoder.vhd
+l0
+L7 1
+VARjonm_U2JdM]9_@QlfFU2
+!s100 DKLG2DgcB_UTXHaRVh^Nb0
+R7
+32
+R8
+!i10b 1
+Z18 !s108 1719738045.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex04/ex04_button_decoder.vhd|
+Z20 !s107 E:/Studium/FPGA/ex04/ex04_button_decoder.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R1
+R2
+R3
+Z21 DEx4 work 19 ex04_button_decoder 0 22 ARjonm_U2JdM]9_@QlfFU2
+!i122 66
+l28
+L23 65
+VX3l2WX]WCh`YcVKgV>HNP2
+!s100 YUg_2i7B`[ZLHVT2kG;<R1
+R7
+32
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Escfifo
+Z22 w1719738041
+R1
+R2
+R3
+!i122 63
+R4
+Z23 8E:/Studium/FPGA/ex07/scfifo.vhd
+Z24 FE:/Studium/FPGA/ex07/scfifo.vhd
+l0
+L5 1
+VE14Uf1O9@IH[o0XEchmXT2
+!s100 iFfmGcLPQ4CK5:zJHL_BI1
+R7
+32
+Z25 !s110 1719738044
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex07/scfifo.vhd|
+Z27 !s107 E:/Studium/FPGA/ex07/scfifo.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+Z28 DEx4 work 6 scfifo 0 22 E14Uf1O9@IH[o0XEchmXT2
+!i122 63
+l30
+L22 42
+V`_XVS_g9LBHLM4N4`_aKT2
+!s100 kVbTVR4=<]J;IU2ZF4XGV1
+R7
+32
+R25
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Escfifo_tb
+Z29 w1719735166
+R1
+R2
+R3
+!i122 64
+R4
+Z30 8E:/Studium/FPGA/ex07/scfifo_tb.vhd
+Z31 FE:/Studium/FPGA/ex07/scfifo_tb.vhd
+l0
+L7 1
+VQ]ScQW?78cJjcQPmPDjgf0
+!s100 :7`KCG=da9YbHK:jLZ;<D3
+R7
+32
+R25
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex07/scfifo_tb.vhd|
+Z33 !s107 E:/Studium/FPGA/ex07/scfifo_tb.vhd|
+!i113 1
+R12
+R13
+Aarch
+R28
+R1
+R2
+R3
+DEx4 work 9 scfifo_tb 0 22 Q]ScQW?78cJjcQPmPDjgf0
+!i122 64
+l24
+L13 126
+VfPfkfHcTUnZN9@BHjOVRc1
+!s100 k53h<1o8if>][U@_Nd2]81
+R7
+32
+R25
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Escfifo_top
+Z34 w1719736825
+R1
+R2
+R3
+!i122 67
+R4
+Z35 8E:/Studium/FPGA/ex07/scfifo_top.vhd
+Z36 FE:/Studium/FPGA/ex07/scfifo_top.vhd
+l0
+L21 1
+VGOCH[bl?jMe^hebnH71ED0
+!s100 ZUZjzD7m<blWib[C;A`Bz2
+R7
+32
+R8
+!i10b 1
+R18
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex07/scfifo_top.vhd|
+Z38 !s107 E:/Studium/FPGA/ex07/scfifo_top.vhd|
+!i113 1
+R12
+R13
+Aarch
+R28
+R21
+R1
+R2
+R3
+Z39 DEx4 work 10 scfifo_top 0 22 GOCH[bl?jMe^hebnH71ED0
+!i122 67
+l46
+Z40 L35 61
+Z41 V?M]PFAnmLWd@ITkH2RQE=3
+Z42 !s100 NV6o>ZWQ=Bm?SziG_Y5Dd3
+R7
+32
+R8
+!i10b 1
+R18
+R37
+R38
+!i113 1
+R12
+R13
