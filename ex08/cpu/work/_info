@@ -1,0 +1,386 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Studium/FPGA/ex07/fifo
+Eex03_clkdiv
+Z0 w1719148596
+Z1 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z2 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 45
+Z3 dE:/Studium/FPGA/ex08/cpu
+Z4 8E:/Studium/FPGA/ex03/ex03/ex03_clkdiv.vhd
+Z5 FE:/Studium/FPGA/ex03/ex03/ex03_clkdiv.vhd
+l0
+L6 1
+V_GmkD4@f;gIW@I?@I2Udo0
+!s100 Ndj:OX`8Z5aGITAFXVhVN2
+Z6 OT;C;2023.3;77
+32
+Z7 !s110 1720362171
+!i10b 1
+Z8 !s108 1720362171.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex03/ex03/ex03_clkdiv.vhd|
+Z10 !s107 E:/Studium/FPGA/ex03/ex03/ex03_clkdiv.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+Z13 DEx4 work 11 ex03_clkdiv 0 22 _GmkD4@f;gIW@I?@I2Udo0
+!i122 45
+l22
+L17 27
+VDA8L<Lo<0zE42So]e>0Lm2
+!s100 WWPhbEkB5G0Zk2d5YGWFm2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eex08_riscv_cpu
+Z14 w1720362124
+Z15 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R1
+R2
+!i122 50
+R3
+Z16 8E:/Studium/FPGA/ex08/ex08_riscv_cpu.vhd
+Z17 FE:/Studium/FPGA/ex08/ex08_riscv_cpu.vhd
+l0
+L5 1
+VNo=NPSn39Z_f:4alBRi6h3
+!s100 GS^ZaQ;EMS3d7e^k@C@DW1
+R6
+32
+Z18 !s110 1720362172
+!i10b 1
+Z19 !s108 1720362172.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex08/ex08_riscv_cpu.vhd|
+Z21 !s107 E:/Studium/FPGA/ex08/ex08_riscv_cpu.vhd|
+!i113 1
+R11
+R12
+Artl
+Z22 DEx4 work 9 riscv_alu 0 22 CKA`_UDXOPGX?aZco]d<e2
+Z23 DEx4 work 19 riscv_register_file 0 22 5Vgdlkh>W=in@2G:4^WEg0
+Z24 DPx4 work 9 rv32i_pkg 0 22 j_VWM1XIUBa^z4^Ui5XV<2
+Z25 DEx4 work 25 riscv_instruction_decoder 0 22 mzldE7ca`9a3Z`U8V[M@_1
+R15
+R1
+R2
+Z26 DEx4 work 14 ex08_riscv_cpu 0 22 No=NPSn39Z_f:4alBRi6h3
+!i122 50
+l37
+Z27 L18 101
+Z28 Vi5OB=O<Xme=DC88P35bOd2
+Z29 !s100 D2Pl@XQacB^a0ZZ6WIHog3
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Eex08_riscv_cpu_tb
+Z30 w1720355947
+R15
+R1
+R2
+!i122 46
+R3
+Z31 8E:/Studium/FPGA/ex08/ex08_riscv_cpu_tb.vhd
+Z32 FE:/Studium/FPGA/ex08/ex08_riscv_cpu_tb.vhd
+l0
+L7 1
+VI[=Yzkz:nQbAzm<^_FD171
+!s100 KV80;Y;XQU=I>X`MAS8^m0
+R6
+32
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex08/ex08_riscv_cpu_tb.vhd|
+Z34 !s107 E:/Studium/FPGA/ex08/ex08_riscv_cpu_tb.vhd|
+!i113 1
+R11
+R12
+Aarch
+R26
+Z35 DEx4 work 14 ex08_riscv_rom 0 22 BNz0]@<R7e4TA<Vnc3NPH3
+R15
+R1
+R2
+DEx4 work 17 ex08_riscv_cpu_tb 0 22 I[=Yzkz:nQbAzm<^_FD171
+!i122 46
+l29
+L13 54
+VS1XU;GcL2gSTfkc=Ei01N0
+!s100 hRndUIC>LPaOPCMP[TN3<3
+R6
+32
+R7
+!i10b 1
+R8
+R33
+R34
+!i113 1
+R11
+R12
+Eex08_riscv_rom
+R30
+R15
+R1
+R2
+!i122 42
+R3
+Z36 8E:/Studium/FPGA/ex08/ex08_riscv_rom.vhd
+Z37 FE:/Studium/FPGA/ex08/ex08_riscv_rom.vhd
+l0
+L10 1
+VBNz0]@<R7e4TA<Vnc3NPH3
+!s100 ]AoGzNT9[iXdc`_2>5R033
+R6
+32
+Z38 !s110 1720362170
+!i10b 1
+Z39 !s108 1720362170.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex08/ex08_riscv_rom.vhd|
+Z41 !s107 E:/Studium/FPGA/ex08/ex08_riscv_rom.vhd|
+!i113 1
+R11
+R12
+Aarch
+R15
+R1
+R2
+R35
+!i122 42
+l43
+L19 43
+VO7N_FY2IT0RIBS2nK;4zJ2
+!s100 [bm:kb=jcQO95PcZzAPUK2
+R6
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12
+Eex08_top
+R30
+R15
+R1
+R2
+!i122 47
+R3
+Z42 8E:/Studium/FPGA/ex08/ex08_top.vhd
+Z43 FE:/Studium/FPGA/ex08/ex08_top.vhd
+l0
+L7 1
+VdOL;K[IG?]E8UL1JhR<Hl3
+!s100 eZ^@o3LCY>F58zBoT:k]^0
+R6
+32
+R7
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex08/ex08_top.vhd|
+Z45 !s107 E:/Studium/FPGA/ex08/ex08_top.vhd|
+!i113 1
+R11
+R12
+Aarch
+R26
+R35
+R13
+R15
+R1
+R2
+DEx4 work 8 ex08_top 0 22 dOL;K[IG?]E8UL1JhR<Hl3
+!i122 47
+l34
+L21 51
+VD1MKgV9id2UZj_M695za43
+!s100 A<C`LSGMonC]7X2A4A6ze2
+R6
+32
+R7
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Eriscv_alu
+R0
+R15
+R1
+R2
+!i122 43
+R3
+Z46 8E:/Studium/FPGA/ex05/riscv_alu.vhd
+Z47 FE:/Studium/FPGA/ex05/riscv_alu.vhd
+l0
+L7 1
+VCKA`_UDXOPGX?aZco]d<e2
+!s100 Ka=Ag@XngIj7S^PUnFn@D1
+R6
+32
+R7
+!i10b 1
+R39
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex05/riscv_alu.vhd|
+Z49 !s107 E:/Studium/FPGA/ex05/riscv_alu.vhd|
+!i113 1
+R11
+R12
+Artl
+R15
+R1
+R2
+R22
+!i122 43
+l22
+L20 71
+VXf<O^6@6AY=X@6<<S7VXB3
+!s100 [cHj=_Dcj>Ng7EjgCXC:41
+R6
+32
+R7
+!i10b 1
+R39
+R48
+R49
+!i113 1
+R11
+R12
+Eriscv_instruction_decoder
+Z50 w1719153207
+R24
+R15
+R1
+R2
+!i122 49
+R3
+Z51 8E:/Studium/FPGA/ex06/riscv_instruction_decoder.vhd
+Z52 FE:/Studium/FPGA/ex06/riscv_instruction_decoder.vhd
+l0
+L8 1
+VmzldE7ca`9a3Z`U8V[M@_1
+!s100 m2KBg^Hb[z<H`9[hjHJ691
+R6
+32
+R18
+!i10b 1
+R8
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex06/riscv_instruction_decoder.vhd|
+Z54 !s107 E:/Studium/FPGA/ex06/riscv_instruction_decoder.vhd|
+!i113 1
+R11
+R12
+Artl
+R24
+R15
+R1
+R2
+R25
+!i122 49
+l29
+L27 70
+V`ja7JaoPVE<J3Bzz@4Ac]3
+!s100 fcdnj2H3aBGZlXhl^FA<@1
+R6
+32
+R18
+!i10b 1
+R8
+R53
+R54
+!i113 1
+R11
+R12
+Eriscv_register_file
+Z55 w1720358518
+R15
+R1
+R2
+!i122 44
+R3
+Z56 8E:/Studium/FPGA/ex05/riscv_register_file.vhd
+Z57 FE:/Studium/FPGA/ex05/riscv_register_file.vhd
+l0
+L7 1
+V5Vgdlkh>W=in@2G:4^WEg0
+!s100 OWTIg<9>e85NhCa1GH`O[3
+R6
+32
+R7
+!i10b 1
+R8
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex05/riscv_register_file.vhd|
+Z59 !s107 E:/Studium/FPGA/ex05/riscv_register_file.vhd|
+!i113 1
+R11
+R12
+Artl
+R15
+R1
+R2
+R23
+!i122 44
+l29
+L24 25
+Vc@kN:=M?4EIGc_VfnCgBY3
+!s100 UKE37J]a;<czY]mC;n5TQ2
+R6
+32
+R7
+!i10b 1
+R8
+R58
+R59
+!i113 1
+R11
+R12
+Prv32i_pkg
+R1
+R2
+!i122 48
+R0
+R3
+8E:/Studium/FPGA/ex06/rv32i_pkg.vhd
+FE:/Studium/FPGA/ex06/rv32i_pkg.vhd
+l0
+L6 26
+Vj_VWM1XIUBa^z4^Ui5XV<2
+!s100 >J6VJdTik6T^67ckXHCJ[1
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Studium/FPGA/ex06/rv32i_pkg.vhd|
+!s107 E:/Studium/FPGA/ex06/rv32i_pkg.vhd|
+!i113 1
+R11
+R12
