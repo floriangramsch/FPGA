@@ -1,0 +1,29 @@
+[*]
+@28
+top.uart_rx_tb.clk
+top.uart_rx_tb.reset_n
+@200
+-TX
+@28
+top.uart_rx_tb.tx_we
+@22
+#{top.uart_rx_tb.tx_wdata[3:0]} top.uart_rx_tb.tx_wdata[3] top.uart_rx_tb.tx_wdata[2] top.uart_rx_tb.tx_wdata[1] top.uart_rx_tb.tx_wdata[0]
+@420
+top.uart_rx_tb.e_uart_tx.state
+@28
+top.uart_rx_tb.data
+@200
+-RX
+@420
+top.uart_rx_tb.e_uart_rx.state
+@c00022
+#{top.uart_rx_tb.rx_rdata[3:0]} top.uart_rx_tb.rx_rdata[3] top.uart_rx_tb.rx_rdata[2] top.uart_rx_tb.rx_rdata[1] top.uart_rx_tb.rx_rdata[0]
+@28
+top.uart_rx_tb.rx_rdata[3]
+top.uart_rx_tb.rx_rdata[2]
+top.uart_rx_tb.rx_rdata[1]
+top.uart_rx_tb.rx_rdata[0]
+@1401200
+-group_end
+@29
+top.uart_rx_tb.rx_rack
