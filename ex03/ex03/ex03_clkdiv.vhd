@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 -- clock divider
 -- Period(o_clk) = 2 * N * Period(i_clk)
-entity ex03_clkdiv is
+entity ex03_clkdivv is
 generic (
     N : positive := 500000--;
 );
@@ -14,7 +14,7 @@ port (
 );
 end entity;
 
-architecture arch of ex03_clkdiv is
+architecture arch of ex03_clkdivv is
 
     signal clk : std_logic := '0';
     signal cnt : integer range 0 to N-1 := 0;
