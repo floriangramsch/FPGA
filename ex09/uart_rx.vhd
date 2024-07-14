@@ -22,3 +22,36 @@ entity uart_rx is
     i_clk : in std_logic--;
     );
     end entity;
+
+    architecture RTL of uart_rx is 
+    TYPE state_type is ( idle , start, data, stop);
+    Signal state : State_type;
+
+    Begin
+
+    Process(i_clk, i_reset_n)
+    Begin
+    if (i_reset_n = '1') THEN
+        --reset
+    
+    ELSIF rising_edge(i_clk) THEN
+        CASE state IS 
+        When idle =>
+            If i_sdata = '1' then 
+                state <= idle;
+
+            ElSIF i_sdata = '0' then  
+                state <= start;
+            END IF;
+        When start => 
+
+        When data => 
+
+        When stop =>
+            state <= idle;
+        When others => 
+
+        END CASE;
+    END IF;
+    END Process;
+    END RTL;

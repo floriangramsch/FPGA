@@ -2,7 +2,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-ENTITY scfifo IS
+ENTITY scfifoo IS
     GENERIC (
         g_DATA_WIDTH : POSITIVE := 8;
         g_ADDR_WIDTH : POSITIVE := 4
@@ -19,7 +19,7 @@ ENTITY scfifo IS
     );
 END ENTITY;
 
-ARCHITECTURE rtl OF scfifo IS
+ARCHITECTURE rtl OF scfifoo IS
     CONSTANT DEPTH : INTEGER := 2 ** g_ADDR_WIDTH;
     TYPE fifo_array IS ARRAY (0 TO DEPTH - 1) OF STD_LOGIC_VECTOR(g_DATA_WIDTH - 1 DOWNTO 0);
     SIGNAL fifo_buffer : fifo_array;
