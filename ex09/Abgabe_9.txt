@@ -1,0 +1,5 @@
+Abgabe Adrian Schmitt und Florian Gramsch
+
+Die maimum effective data rate ist 4/6 weil wir 6 bits benutzen um 4 bits zu versenden
+
+Mögliche Probleme sind bitflips
